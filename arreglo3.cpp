@@ -3,6 +3,7 @@
 using namespace std;
 int main (void){
     int n;
+    float suma = 0;
     cout <<"¿De cuantos numeros deseas conocer el promedio? \n";
     cin >> n;
 
@@ -14,8 +15,8 @@ int main (void){
         suma += numeros[i];
     }
     float promedio = suma / n;
-    
-    cout << "El promedio de los " << N << " números es: " << promedio << "\n";
+
+    cout << "El promedio de los " << n << " números es: " << promedio << "\n";
     
     
     return 0;
